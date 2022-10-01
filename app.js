@@ -16,6 +16,6 @@ mongoose.connect(URI)
 .catch((err)=>console.log(err))
 app.use('/',router)
 
-I am Just doing for commot
+I am Just doing
 
 app.listen(process.env.PORT,()=>console.log(`server on ${process.env.PORT}`))
